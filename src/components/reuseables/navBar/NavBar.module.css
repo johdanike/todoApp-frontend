@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.NavCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 80px;
+    margin: 20px auto;
+}
+.NavLogo{
+background-color: #0C513F;
+    width: 153.92px;
+    height: 48px;
+    /*padding-top: 16px;*/
+    padding: 11px 23.92px 12px 24px;
+    gap: 0px;
+    border-radius: 9999px;
+    align-items: self-end;
+}
+.NavLinksCenter,
+.NavLinksRight{
+    font-family: Plus Jakarta Sans, serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    gap: 30px;
+}
+.Customers{
+    gap: 20px;
+    display: flex;
+}
+
