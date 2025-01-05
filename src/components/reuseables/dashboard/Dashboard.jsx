@@ -1,18 +1,19 @@
-import NavBar from "./navBar/NavBar";
-import Profile from "./profile/Profile";
-import Content from "./content/Content";
+import NavBar from "../navBar/NavBar";
+import Profile from "../profile/Profile";
+import Content from "../content/Content";
+import style from '../../../components/reuseables/dashboard/Dashboard.module.css'
 
-const General = () => {
+const Dashboard = () => {
     return (
-        <>
+        <div className={style.dashboard}>
             <NavBar/>
-            <div className={styles.dashboardContent}>
+            <div className={style.dashboardContent}>
                 <Content/>
-                <Profile/>
+                {/*<Profile/>*/}
             </div>
 
-        </>
+        </div>
     )
 }
 
-export default General;
+export default Dashboard;

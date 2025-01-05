@@ -1,0 +1,90 @@
+.content {
+    width: 100%;
+}
+.contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerTitle{
+    color: #27374d;
+}
+.headerActivity{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.searchBox{
+    background-color: #D8829D;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.searchBox input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.searchBox input::placeholder{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.searchBox .icon{
+    color: #628B48;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.addTask{
+    background-color: #D8829D;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.addTask button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: auto;
+}
+.addTask button:hover, .addTask button:focus{
+    color: #F7D867;
+    /*background-color: #6AB563;*/
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.addTask .icon{
+    color: #628B48;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.notify{
+    background-color: #D8829D;
+    padding: 12px;
+    border-radius: 10px;
+    color: #628B48;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+.notify .icon{
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+.icon:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}

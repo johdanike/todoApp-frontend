@@ -1,13 +1,13 @@
-import NavBar from "../reuseables/NavBar/NavBar";
+// import navBar from "../reuseables/navBar/navBar";
+import Dashboard from '../reuseables/dashboard/Dashboard'
 import {Outlet} from "react-router-dom"
-import Footer from "../reuseables/Footer/Footer";
 
 const Layout = () =>{
     return (
         <>
-            <NavBar />
+            {/*<navBar />*/}
+            <Dashboard/>
             <Outlet />
-            <Footer/>
         </>
     )
 }

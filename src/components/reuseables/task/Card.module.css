@@ -1,0 +1,147 @@
+.taskCat{
+    display: flex;
+    justify-content: space-between;
+}
+.todo, .inProgress, .completed{
+    width: 30%;
+    background-color: #F3F9E3;
+    border-radius: 10px;
+    display: inline;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.title{
+    border: 2px solid #535353;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+.title input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 5px;
+}
+
+input::placeholder{
+    padding-top: 20px;
+    line-height: 20px;
+}
+
+.description{
+    border: 2px solid #535353;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    /*align-items: center;*/
+    margin: 20px;
+
+}
+
+.description input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    height: 120px;
+}
+.task__card{
+    border: 2px solid #D8829D;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 0;
+}
+.task__card .title,
+.task__card .description{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-top: auto;
+
+}
+.card .title,
+.card .description,
+.card p{
+    /*padding: 0;*/
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+}
+.addButton{
+    /*width: -webkit-fill-available;*/
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 8px 10px;
+    justify-content: center;
+    background: #F7D867;
+    border: none;
+    font-size: 20px;
+    color: #628B48;
+    font-weight: 600;
+}
+.addButton:hover{
+    color: #F7D867;
+    background-color: #628B48;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+
+}
+.buttons{
+    /*justify-content: space-around;*/
+    /*display: flex;*/
+    padding: 10px;
+}
+.buttons button{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 0 0 10px 0;
+    border-radius: 9px;
+    padding: 5px;
+}
+.taskCard{
+    border: 2px solid #D8829D;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 0px 0px 20px 11px;
+}
+button{
+    justify-content: space-evenly;
+    display: flex;
+    margin: 0 0 10px 0px;
+    border-radius: 9px;
+    padding: 5px;
+}
+.deleteButton{
+    background-color: #D8829D;
+    color: white;
+}
+.addNewTaskButton{
+    background-color: #6AB563;
+    color: #ffffff;
+}
+.title__details{
+    max-width: 100%;
+    max-height: 3rem;
+    resize: none;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 10px 15px 10px;
+    border-radius: 10px;
+}
+.description__details{
+    max-width: 100%;
+    min-height: 3rem;
+    resize: none;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px 10px 15px 10px;
+    border-radius: 10px;
+}
+
